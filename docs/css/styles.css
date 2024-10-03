@@ -1,0 +1,189 @@
+/* Cambiar el color del texto */
+.md-content {
+    color: #fdf9f9;
+    /* Color del texto */
+    background-color: #1e1e2f;
+    /* Fondo oscuro para contraste */
+}
+
+/* Cambiar los enlaces */
+.md-content a {
+    color: #007bff;
+    /* Color de los enlaces */
+    text-decoration: none;
+    /* Quitar subrayado */
+}
+
+/* Efecto hover sobre los enlaces */
+.md-content a:hover {
+    text-decoration: underline;
+    /* Subrayado al pasar el ratón */
+    color: #ffffff;
+    /* Cambiar a blanco al hacer hover */
+}
+
+/* Estilo geral do nav */
+.md-nav__list {
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    padding: 5px;
+    background-color: #2a2a3b;
+    width: 100%;
+}
+
+/* Estilo para o item ativo */
+.md-nav__item--active>.md-nav__link {
+    position: relative;
+    padding: 5px 0px 5px 5px;
+    border-radius: 6px;
+}
+
+/* Estilo para as subdivisoes */
+.md-nav__item--active .md-nav__link {
+    background-color: inherit;
+    /* Fundo específico para links de subdivisões */
+    color: white;
+    /* Texto de subdivisões */
+}
+
+/* Impede que as subdivisões se ativem quando apenas um item é clicado */
+.md-nav__item--active .md-nav__item--active .md-nav__link {
+    background-color: white;
+    color: #4a4a58;
+    /* Mantém a cor original do texto */
+}
+
+/* Ajustes para títulos dentro do conteúdo */
+.md-content h1,
+.md-content h2,
+.md-content h3 {
+    color: #fdf9f9;
+}
+
+/* Padding no conteúdo */
+.md-content {
+    padding: 20px;
+}
+
+/* Estilo dos cards */
+.cards-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+/* Ajustes em cada card */
+.card {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-basis: 45%;
+    max-width: 400px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+
+/* Efeito hover nos cards */
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border: 2px solid #007bff;
+}
+
+/* Efeito quando se faz clique (focus) nos cards */
+.card:active {
+    transform: scale(0.98);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    border: 2px solid #0056b3;
+}
+
+/* Ajustes na imagem do card */
+.card img {
+    width: 85px;
+    height: 85px;
+    margin-bottom: 5px;
+    align-self: flex-start;
+}
+
+/* Ajustes de subtítulo e texto nos cards */
+.card h3 {
+    font-size: 1.2em;
+    color: #555;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.card p {
+    color: #777;
+    margin-top: 0;
+}
+
+.carousel {
+    position: relative;
+    padding-top: 10px;
+    max-width: 600px;
+    /* ajuste conforme necessário */
+    margin: auto;
+    overflow: hidden;
+}
+
+.carousel-container {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.carousel-slide {
+    display: flex;
+    /* Alinha os grupos de imagens lado a lado */
+    min-width: 100%;
+    /* Cada slide ocupará 100% do carousel */
+    box-sizing: border-box;
+}
+
+.image-group {
+    display: flex;
+    /* Alinha as imagens dentro do grupo em linha */
+    justify-content: space-between;
+    /* Espaço entre as imagens */
+    width: 100%;
+    /* Ocupa toda a largura do slide */
+}
+
+.image-group img {
+    width: 30%;
+    /* Cada imagem ocupará 30% do grupo */
+    height: auto;
+    /* Mantém a proporção da imagem */
+    display: block;
+}
+
+.carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.7);
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 10;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
