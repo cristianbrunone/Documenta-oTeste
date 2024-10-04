@@ -167,6 +167,7 @@
     height: auto;
     /* Mantém a proporção da imagem */
     display: block;
+    border-radius: 14px;
 }
 
 .carousel-button {
