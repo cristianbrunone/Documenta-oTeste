@@ -36,23 +36,23 @@ Esta é a documentação do aplicativo **Só na Várzea**, que oferece uma visã
     <div class="carousel-container">
         <div class="carousel-slide active">
             <div class="image-group">
-                <img src="assets/app.png" alt="Frontend Icon">
-                 <img src="assets/app.png" alt="Frontend Icon">
-                <img src="assets/app.png" alt="Frontend Icon">
+                <img src="assets/8.png" alt="Frontend Icon">
+                 <img src="assets/5.png" alt="Frontend Icon">
+                <img src="assets/6.png" alt="Frontend Icon">
             </div>
         </div>
         <div class="carousel-slide">
             <div class="image-group">
-                 <img src="assets/app.png" alt="Frontend Icon">
-                <img src="assets/app.png" alt="Frontend Icon">
-                 <img src="assets/app.png" alt="Frontend Icon">
+                 <img src="assets/2.png" alt="Frontend Icon">
+                <img src="assets/3.png" alt="Frontend Icon">
+                 <img src="assets/4.png" alt="Frontend Icon">
             </div>
         </div>
         <div class="carousel-slide">
             <div class="image-group">
-                <img src="assets/app.png" alt="Frontend Icon">
-                <img src="assets/app.png" alt="Frontend Icon">
-                 <img src="assets/app.png" alt="Frontend Icon">
+                <img src="assets/5.png" alt="Frontend Icon">
+                <img src="assets/6.png" alt="Frontend Icon">
+                 <img src="assets/7.png" alt="Frontend Icon">
             </div>
         </div>
     </div>

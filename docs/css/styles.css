@@ -183,8 +183,14 @@
 
 .prev {
     left: 10px;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #4a4a586a;
 }
 
 .next {
     right: 10px;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #4a4a586a;
 }
